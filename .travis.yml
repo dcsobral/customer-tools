@@ -41,3 +41,4 @@ matrix:
         - cargo build --verbose
         - cargo test --verbose
         - cargo build --release --verbose
+        - ls -l apps/dynamodb-etl/target/release
